@@ -44,7 +44,7 @@ function ImgMediaCard(props) {
           alt=""
           height="150"
           width="100%"
-          objectfit = "cover"
+          resizeMode="contain"
           image={props.url}
           title=""
         />

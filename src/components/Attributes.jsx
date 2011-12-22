@@ -83,8 +83,8 @@ function Attributes(props) {
    
     const post = () => {
         console.log(state)
-        if (state.title && state.type && state.description && state.condition
-            && state.price && state.phone && state.name && state.city
+        if (state.title && state.description && state.condition
+            && state.price && state.phone && state.city
             && state.state && state.url !== "") {
             let key = firebase.database().ref("OlxAds").push().key
             firebase.database().ref('OlxAds').child(key).set(state)

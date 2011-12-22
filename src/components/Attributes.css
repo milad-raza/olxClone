@@ -177,12 +177,12 @@
         width: 100% !important;
     }
     .input{
-        width: 270px;
+        width: 250px;
         height: 40px;
     }
     .input2{
         height: 100px;
-        width: 270px;
+        width: 250px;
     }
     .inputrs{
         width: 40px;
@@ -190,10 +190,10 @@
    }
    .inputd{
         height: 40px;
-        width: 230px;
+        width: 180px;
    }
    .inputname{
-       width: 230px;
+       width: 220px;
        height: 40px;
    }
 }

@@ -48,7 +48,7 @@ function ProductClick(props) {
                 <br />
                 <span className = "price-title-span">
                     <small>{product.city},{product.state}</small>
-                    <small>{product.month} {product.date}</small>
+                    <small>{product.date}/{product.month}/{product.year}</small>
                 </span> 
                 </div>    
                 <div className="seller-des">
