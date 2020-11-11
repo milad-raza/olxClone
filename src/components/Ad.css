@@ -1,0 +1,19 @@
+.ad1{
+    width: 100%;
+    height: 36vh;
+}
+.ad2{
+    width: 60%;
+    height: 36vh;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width:801px){
+    .both-ads{
+        overflow: hidden;
+        display: none;
+    }
+    
+}

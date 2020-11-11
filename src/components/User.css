@@ -1,0 +1,35 @@
+.avatar{
+    height: 35px;
+    width : 35px;
+    margin-top: auto;
+    margin-bottom: auto; 
+}
+.both{
+    cursor: pointer;
+}
+.gry{
+    color: #557577;
+}
+.contuser{
+    margin-left: 10px;
+}
+.contall{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: auto;
+}
+.editlink{
+    color: #002f34;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.editlink:hover{
+    color: #002f34;
+    text-decoration: none;
+}
+.name{
+    color: #002f34;
+    font-weight: bolder;
+}

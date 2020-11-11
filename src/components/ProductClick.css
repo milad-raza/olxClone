@@ -1,0 +1,97 @@
+.data-div{
+    display: flex;
+    justify-content: center;
+    margin: 30px 10px 30px 10px;
+}
+.carousel{
+    width: 1200px;
+    border: 2px solid #cbd4d5;
+    border-radius: 4px;
+}
+.left-all{
+    margin-left: 10px;
+    width: 590px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.price-title-p{
+    color: #757575;
+}
+.price-title-span{
+    color: #757575;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.price-title-h2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sharei{
+    margin-right: 10px;
+    font-size: large;
+}
+.price-title{
+    border: 2px solid #cbd4d5;
+    border-radius: 4px;
+    padding: 20px;
+}
+.seller-des{
+    border: 2px solid #cbd4d5;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+}
+.changeCo{
+    color:#002f34;
+}
+.chatbtn{
+    width: 100%;
+    height: 36px;
+    background-color: #002f34;
+    color: white;
+    border-radius: 4px;
+    border: 2px solid #002f34;
+}
+.chatbtn:hover{
+    width: 100%;
+    height: 36px;
+     background-color: white;
+     border: 2px solid #002f34;
+     color: #002f34;
+     border-radius: 4px;
+}
+.chatbtn:focus{
+    outline: none;
+}
+.area{
+    color: #757575;
+}
+.ancol{
+    color: #cbd4d5;
+}
+.posted-in{
+    border: 2px solid #cbd4d5;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+
+.dettails,.description{
+    width: 1780px;
+    border: 2px solid #cbd4d5;
+    border-radius: 4px;
+    padding: 20px;
+}
+.down-div{
+    display: flex;
+    justify-content: center;
+    margin: 30px 30px 30px 10px;
+}
+.det{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}

@@ -1,0 +1,174 @@
+.container{
+    display: flex;
+    justify-content: center;
+    overflow-y: auto ;
+    overflow-x: hidden;
+}
+.form-border{
+    border: 2px solid #cbd4d5;
+    width: 80%;
+    color:  #002f34;
+    border-radius: 4px;
+}
+
+.selected{
+    color: #969ea0;
+    display: inline;    
+}
+.change{
+    color: #002f34;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: none;
+    margin-left: 20px;
+}
+.change:hover{
+    color: #002f34;
+    text-decoration: none;
+}
+.change:focus{
+    outline: none;
+}
+.heading{
+    color:#cbd4d5;
+    border: 1px solid #cbd4d5;
+}
+.input{
+    height: 50px;
+    width: 350px;
+    border: 1px solid #002f34;
+    padding: 10px;
+    border-radius: 5px;
+}
+.input:focus{
+    outline: none;
+    border: 2px solid #00a39e;
+}
+.input2{
+    height: 120px;
+    width: 350px;
+    border: 1px solid #002f34;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+}
+.input2:focus{
+    outline: none;
+    border: 2px solid #00a39e;
+}
+.inputrs{
+    padding-left: 10px;
+    width: 40px;
+    height: 50px;
+    border: 1px solid #002f34;
+    background-color: transparent;
+    border-radius: 5px;
+    border-top-right-radius:0px ;
+    border-bottom-right-radius:0px ;
+    border-right: 2px solid #969ea0;
+
+}
+.inputd{
+    height: 50px;
+    width: 300px;
+    border: 1px solid #002f34;
+    padding: 10px;
+    border-radius: 5px;
+    border-left: none;
+    border-top-left-radius:0px ;
+    border-bottom-left-radius:0px ;
+    appearance: textfield;
+}
+.inputd:focus{
+    outline: none;
+    border: 2px solid #00a39e;
+    border-left: none;
+}
+
+.margin1{
+    margin: 20px;
+}
+.margin2{
+    margin: 30px
+}
+.camera{
+    font-size: xx-large;
+    width: 80px;
+}
+.imageupload > input{
+    display: none;
+}
+.red{
+    color: red;
+}
+.inputname{
+    width: 200px;
+    height: 50px;
+    border: 1px solid #002f34;
+    padding: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+.inputname:focus{
+    border: 2px solid #00a39e;
+}
+.postbtn{
+    width: 120px;
+    height: 50px;
+    background-color: #002f34;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+.inputphone{
+    appearance: textfield;
+}
+
+
+
+
+
+.radio-toolbar input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    padding: 6px 15px;
+    border: 1px solid #002f34;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.radio-toolbar label:hover {
+    background-color: #c7f7f5;
+    border: 1px solid #00a39e;
+    color: #00a39e ;
+}
+
+
+.radio-toolbar input[type="radio"]:checked + label {
+    background-color: #c7f7f5;
+    border: 1px solid #00a39e;
+    color: #00a39e ;
+}
+
+.hide{
+    display: none;
+}
+.cameras{
+    border: 2px solid #cbd4d5;
+    cursor: pointer;
+    padding: 12px;
+    color: #969ea0;
+}
+.cameras:hover{
+    color: #002f34;
+    border: 2px solid #002f34;
+}
+.cameranow{
+    display: none;
+}

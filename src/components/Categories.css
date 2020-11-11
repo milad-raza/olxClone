@@ -1,0 +1,29 @@
+.second-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+}
+.categories-nav{
+    display: inline-block;
+}
+.links{
+    color: #002f34;
+    margin-left: 20px;
+}
+.links:hover{
+    color: #23e5db;
+    text-decoration: none;
+}
+.links:focus{
+    outline: none;
+}
+
+
+@media only screen and (max-width:801px){
+    .second-nav{
+        display: none;
+        overflow: hidden;
+    }
+}
