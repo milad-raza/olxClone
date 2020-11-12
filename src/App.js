@@ -10,6 +10,7 @@ import Attributes from './components/Attributes';
 import Main from './components/Main';
 import FooterTop from './components/FooterTop'
 import ProductClick from './components/ProductClick'
+import { ResponsiveDrawer } from './components/Navbar';
 import './App.css';
 
 class App extends React.Component{
@@ -21,6 +22,7 @@ class App extends React.Component{
           <Switch>
             <Route path="/product">
               <Navbar />
+              <ResponsiveDrawer />
               <Categories />
               <ProductClick />
               <Footer />
@@ -40,6 +42,7 @@ class App extends React.Component{
 
             <Route path="/">
               <Navbar />
+              <ResponsiveDrawer />
               <Categories />
               <Ad />
               <Main />

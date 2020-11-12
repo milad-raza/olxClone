@@ -19,7 +19,7 @@ function Attributes(props) {
         description: "",
         price: "",
         name: "",
-        type: "",
+        // type: "",
         condition: "",
         state: "",
         city: "",
@@ -125,7 +125,7 @@ function Attributes(props) {
                     <br />
                     <br />
                     
-                    <label>Type *</label><br />
+                    {/* <label>Type *</label><br />
                     
                     <div className="radio-toolbar">
                       <input type="radio" id="radioMobile" name="type" value="Mobile"  onChange={handleChange} />
@@ -137,7 +137,7 @@ function Attributes(props) {
                 
 
                     <br />
-                    <br />
+                    <br /> */}
                             
                     <label>Ad title *</label>
                     <br />

@@ -136,13 +136,39 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-
-
+.drawer{
+    display:none
+}
+.drawerback{
+    background-color: #f7f8f8 !important;
+}
 @media only screen and (max-width:801px){
     .navbar-background{
         display: none;
         overflow: hidden;
     }
+    .drawer{
+    display:unset;
+    }
+    .iflogin{
+    padding: 10px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+   }
+   .butsell{
+       border: 2px solid #23e5db;
+       text-decoration: none;
+       color: #002f34;
+       padding: 5px;
+       border-radius: 50px;
+       width: 100px;
+       margin-left: 80px;
+   }
+   .butsell:hover{
+       color: #002f34;
+   }
+   
 }
 
 

@@ -77,8 +77,8 @@ function ProductClick(props) {
             <div className = "dettails">
                 <h5 className="changeCo"><b>Details</b></h5>
                 <div className = "det">
-                <span className = "area">Type</span>
-                <span className="area"><b>{product.type}</b></span>
+                {/* <span className = "area">Type</span>
+                <span className="area"><b>{product.type}</b></span> */}
                 <span className = "area">Condition</span>
                 <span className="area"><b>{product.condition}</b></span>
                  </div>

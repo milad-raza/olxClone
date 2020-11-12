@@ -32,6 +32,7 @@ const useStyles = makeStyles((theme) => ({
     outline: "none",
     textAlign: "center",
   },
+  
 }));
 
 function Login(props) {
@@ -129,7 +130,7 @@ const facebook = () => {
       >
         
         <Fade in={open}>
-          <div className={classes.paper}>
+          <div className="paper">
             <Close onClick = {handleClose} fontSize = "large" className = "close" />
             <br />
             <br />
