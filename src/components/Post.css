@@ -93,3 +93,18 @@
     border-left: none;
     color: #002f34;
 }
+
+@media only screen and (max-width:801px){
+    .boundary{
+        width: 98%
+    }
+    .drops{
+    width: 98%;
+    }
+    .drops2inside{
+    width: 70% !important;
+    }
+    .drops2{
+    width: 100% !important;
+    }
+}

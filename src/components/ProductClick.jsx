@@ -31,7 +31,7 @@ function ProductClick(props) {
     ]
 
     return (
-        <div>
+        <div className = "wholep">
         <div className = "data-div">
             <Carousel autoPlay = {false} navButtonsAlwaysVisible = {true} className = "carousel">
                 {images.map((image, i) => <CarouselImages key={i} image={image} /> )}

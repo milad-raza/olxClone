@@ -13,7 +13,7 @@ import productClick from '../store/Actions/ProductClickAction';
 
 const useStyles = makeStyles({
   root: {
-    width: 200,
+    width: 240,
     margin: 20,
     border: "1px solid #cbd4d5",
     boxShadow: "none"

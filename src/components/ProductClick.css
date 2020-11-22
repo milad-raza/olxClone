@@ -95,3 +95,26 @@
     justify-content: space-between;
     margin-top: 10px;
 }
+
+@media only screen and (max-width:801px){
+    *{
+        overflow-x: hidden;
+    }
+    .wholep{
+        margin-top: 80px;
+    }
+    .data-div{
+        display: block;
+        margin-bottom: 0px !important;
+    }
+    .carousel{
+        width: 100%;
+        height: 100%;
+    }
+    .down-div{
+        margin: 0px 10px 10px 10px;
+    }
+    .dettails,.description{
+        width: 100%;
+    }
+}

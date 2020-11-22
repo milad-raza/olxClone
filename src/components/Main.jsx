@@ -1,7 +1,7 @@
 import React from 'react';
 import './Main.css';
 import Product from './Product';
-// import check from '../images/1.PNG';
+import check from '../images/1.PNG';
 import firebase from '../config/firebase';
 
 class Main extends React.Component {
@@ -33,7 +33,7 @@ constructor(props) {
               })}     
           </div> 
 
-                  {/* <Product description = "dsdsdoijfiaj sdoajo nisadoinsaosn asodoadjad aojsodjojsoa oasdsjoajsfo0a0i0fsi0jdf0fjsa0fjdso0sij0dfsis0aksf0sddajs saodjsodajsdas aosjdoajjadsjdfhfgdhdosdod" city = "karachi" state = "sindh" date = "1" title = "guita hjj jojlk kkj  kihjkjlkjkljhkjhkj khkjnk kknkn khklnkl;hjoihkljkbjj;kr" url = {check} month = "sep" price = '2000' type = 'new' /> */}
+                  <Product description = "dfkfkf asodoadjad aojsodjojsoa oasdsjo ajsfo0a0i0 fsi0jdf0fjs a0fjdso0sij0dfsis0aksf0sddajs saodjsodajsdas aosjdoajjad sjdfhfgdh dosdod" city = "karachi" state = "sindh" date = "1" title = "guita hjj jojlk kkj  kihjkjlkjkljhkjhkj khkjnk kknkn khklnkl;hjoihkljkbjj;kr" url = {check} month = "sep" price = '2000' condition = 'new' year = '2020' number = '03121229880' />
 
           </div>  
             

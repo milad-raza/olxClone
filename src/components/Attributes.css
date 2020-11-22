@@ -108,7 +108,6 @@
     border: 1px solid #002f34;
     padding: 10px;
     border-radius: 4px;
-    margin-left: 10px;
 }
 .inputname:focus{
     border: 2px solid #00a39e;
@@ -171,4 +170,30 @@
 }
 .cameranow{
     display: none;
+}
+
+@media only screen and (max-width:801px){
+    .form-border{
+        width: 100% !important;
+    }
+    .input{
+        width: 270px;
+        height: 40px;
+    }
+    .input2{
+        height: 100px;
+        width: 270px;
+    }
+    .inputrs{
+        width: 40px;
+        height: 40px;
+   }
+   .inputd{
+        height: 40px;
+        width: 230px;
+   }
+   .inputname{
+       width: 230px;
+       height: 40px;
+   }
 }

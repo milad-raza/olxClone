@@ -168,7 +168,10 @@
    .butsell:hover{
        color: #002f34;
    }
-   
+   .loginl{
+       padding: 10px;
+       margin-right: 80px;
+   }
 }
 
 

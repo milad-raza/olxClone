@@ -143,7 +143,7 @@ function Attributes(props) {
                     <br />
                     <input type="text" className="input" maxLength="70" name="title" value={state.title} onChange={handleChange} />
                     <br />
-                    <small className = "selected">Mention the key features of your item (e.g brand, &nbsp; &nbsp; &nbsp; &nbsp; 0/70<br /> Model, age,type) </small>
+                    <small className = "selected">Mention the key features of your item (e.g brand,Model,age,type)</small>
                     <br />
                     <br />
                     <br />
@@ -152,7 +152,7 @@ function Attributes(props) {
                     <br />
                     <textarea className="input2" maxLength="4096" name="description" value={state.description} onChange={handleChange} />
                     <br />
-                    <small className = "selected">Include condition, features and reason for  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 0/4096<br /> selling </small>
+                    <small className = "selected">Include condition, features and reason for selling</small>
                 </div>      
                 <hr className = "heading" />
                 <div className = "margin2">
@@ -164,7 +164,7 @@ function Attributes(props) {
                 </div>
                 <hr className = "heading" />
                 <div className  = "margin2">
-                    <h4><b>UPLOAD UP TO 12 PHOTOS</b></h4>
+                    <h4><b>UPLOAD AT LEAST 1 PHOTO</b></h4>
         
                     <label htmlFor = "files" className = "cameras">      
                     <MdCameraAlt className = "camera" id = "camera" />
@@ -196,15 +196,16 @@ function Attributes(props) {
                 <hr className = "heading" />
                 <div className = "margin2">
                     <h4><b>REVIEW YOUR DETAILS</b></h4>
-                    <img src={avatar} width = "100px" height ="100px" alt = "avatar"/>
-                    <label>Name</label>
+                    <img src={avatar} width = "100px" height ="100px" alt = "avatar"/><br />
+                    <h6>Name</h6>
                     <input type ="text" className = "inputname" defaultValue = {props.user.displayName} maxLength = "30" name="name"  onChange={handleChange} />
                     <br />
                     <br />
                     
-                    <h6>Your phone number <input type = "number" className = "inputname inputphone"  onInput ={(e) => e.target.value = e.target.value.slice(0,11)} name="phone" value={state.phone} onChange={handleChange}/> </h6>
-                    <br />
-                    <h6>Show my phone number on my ads  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <SwitchLabels /></h6>
+                    <h6>Your phone number </h6>
+                    <input type = "number" className = "inputname inputphone"  onInput ={(e) => e.target.value = e.target.value.slice(0,11)} name="phone" value={state.phone} onChange={handleChange}/>
+                    <br /><br />
+                    <h6>Show my number on my ads <SwitchLabels /></h6>
                      
                 </div>
                 <hr className="heading" />

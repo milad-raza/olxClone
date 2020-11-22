@@ -109,6 +109,7 @@ const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     boxShadow: '0 4px 2px -2px rgba(0,0,0,.1)',
+    marginBottom: '50px' ,
   },
   drawer: {
     [theme.breakpoints.up('sm')]: {
@@ -154,7 +155,7 @@ function ResponsiveDrawer(props) {
       <div className={classes.toolbar} />
       <Divider />
       
-        <div className="iflogin" >
+        <div className="loginl" >
             <Login />
         </div>
       
