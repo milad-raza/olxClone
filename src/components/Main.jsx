@@ -33,7 +33,7 @@ constructor(props) {
               })}     
           </div> 
 
-                  <Product description = "dfkfkf asodoadjad aojsodjojsoa oasdsjo ajsfo0a0i0 fsi0jdf0fjs a0fjdso0sij0dfsis0aksf0sddajs saodjsodajsdas aosjdoajjad sjdfhfgdh dosdod" city = "karachi" state = "sindh" date = "1" title = "guita hjj jojlk kkj  kihjkjlkjkljhkjhkj khkjnk kknkn khklnkl;hjoihkljkbjj;kr" url = {check} month = "sep" price = '2000' condition = 'new' year = '2020' number = '03121229880' />
+                 {/* <Product description = "dfkfkf asodoadjad aojsodjojsoa oasdsjo ajsfo0a0i0 fsi0jdf0fjs a0fjdso0sij0dfsis0aksf0sddajs saodjsodajsdas aosjdoajjad sjdfhfgdh dosdod" city = "karachi" state = "sindh" date = "1" title = "guita hjj jojlk kkj  kihjkjlkjkljhkjhkj khkjnk kknkn khklnkl;hjoihkljkbjj;kr" url = {check} month = "sep" price = '2000' condition = 'new' year = '2020' number = '03121229880' /> */}
 
           </div>  
             
