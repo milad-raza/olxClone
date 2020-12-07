@@ -139,10 +139,10 @@ const facebook = () => {
               }
             </Carousel>  
             <br />
-            <Button  className = "buttons">Continue with phone</Button>
+            <Button  className = "buttons"><Close style = {{color: "red"}} fontSize = "large" /> Continue with phone </Button>
             <Button onClick = {facebook} className = "buttons"> <img src={fb} alt="facebook"/> Continue with facebook</Button>
             <Button onClick = {google} className = "buttons"> <img src={go} alt="google"/> Continue with google</Button>
-            <Button className = "buttons">Continue with email</Button>
+            <Button className = "buttons"><Close style = {{color: "red"}} fontSize = "large" /> Continue with email </Button>
             <br />
             <small>We won't share your personal details with anyone</small>
 
