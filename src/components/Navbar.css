@@ -11,16 +11,16 @@
     box-shadow: 0 4px 2px -2px rgba(0,0,0,.1);
 }
 .logo{
-
    display: flex;
    justify-content: center;
    align-items: center;
-    height: 30px;
-    width : 50px;
     margin-right: 20px;
     margin-top: auto;
     margin-bottom: auto;
-    
+}
+.logo1{
+    height: 30px;
+    width : 50px;
 }
 .logo:focus{
     outline: none;

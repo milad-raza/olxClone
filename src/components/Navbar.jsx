@@ -57,7 +57,7 @@ class Navbar extends React.Component{
       <div>
       <nav className="navbar-background">
         <Link to = "/"  className = "logo">
-          <img src = {logo}  alt = "olx logo" />
+          <img src = {logo}  alt = "olx logo" className = "logo1" />
         </Link>
         <div className={`${expand ? "first-wrap-focus" : "first-wrap"}`} >
           
