@@ -11,6 +11,7 @@ import Main from './components/Main';
 import FooterTop from './components/FooterTop'
 import ProductClick from './components/ProductClick'
 import { ResponsiveDrawer } from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
 class App extends React.Component{
@@ -19,6 +20,7 @@ class App extends React.Component{
       
       <div>
         <Router>
+          <ScrollToTop />
           <Switch>
             <Route path="/product">
               <Navbar />
@@ -27,7 +29,7 @@ class App extends React.Component{
               <ProductClick />
               <Footer />
             </Route>
-            
+          
             <Route path="/post/attributes">
              <Attributes />
             </Route>
