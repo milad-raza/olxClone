@@ -90,6 +90,10 @@ function Attributes(props) {
             firebase.database().ref('OlxAds').child(key).set(state)
             history.push('/');
         }
+        else {
+            alert("All Fields Required")
+        }
+        
         
     }
 

@@ -10,7 +10,6 @@ import Attributes from './components/Attributes';
 import Main from './components/Main';
 import FooterTop from './components/FooterTop'
 import ProductClick from './components/ProductClick'
-import { ResponsiveDrawer } from './components/Navbar';
 import ScrollToTop from './components/ScrollToTop';
 import './App.css';
 
@@ -23,8 +22,8 @@ class App extends React.Component{
           <ScrollToTop />
           <Switch>
             <Route path="/product">
-              <Navbar />
-              <ResponsiveDrawer />
+              <Navbar.Navbar />
+              <Navbar.ResponsiveDrawer />
               <Categories />
               <ProductClick />
               <Footer />
@@ -43,8 +42,8 @@ class App extends React.Component{
             </Route>
 
             <Route path="/">
-              <Navbar />
-              <ResponsiveDrawer />
+              <Navbar.Navbar />
+              <Navbar.ResponsiveDrawer />
               <Categories />
               <Ad />
               <Main />

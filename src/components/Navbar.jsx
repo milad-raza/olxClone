@@ -82,9 +82,6 @@ class Navbar extends React.Component{
         : <Login />
         }
         
-  
-        
-        
         <Link className="second-link" to={(this.props.login) ? "/post" : "/"} >
           <span><Add /><b>SELL</b></span>
         </Link> 
@@ -152,28 +149,38 @@ function ResponsiveDrawer(props) {
 
   const drawer = (
     <div className = "drawer">
-      <div className={classes.toolbar} />
+      <div className={classes.toolbar}>
+        <br /> 
+        <Link to = "/"  className = "logo">
+          <img src = {logo}  alt = "olx logo" className="logo1" style={{marginRight: "150px"}} />
+        </Link>
+        <br />
+      </div>
+
       <Divider />
       
         <div className="loginl" >
-            <Login />
-        </div>
-      
-      <Divider />
-      
+        {props.login ?
+        
+        (<>
         <div className="iflogin" >
             <RiChat1Line className = "icons" />
             <Notification/>
             <User />
+            <Divider />
+        </div>
+          <br />
+          <Link className="butsell" to={"/post"} >
+            <span><Add /><b>SELL</b></span>
+          </Link>
+          <br />
+          <br />
+        </>)
+        : <Login />
+        }
         </div>
       
-      
       <Divider />
-      <br />
-      <Link className="butsell" to={"/post"} >
-          <span><Add /><b>SELL</b></span>
-      </Link>
-         
       
     </div>
   );
@@ -248,7 +255,7 @@ ResponsiveDrawer.propTypes = {
   window: PropTypes.func,
 };
 
-export {ResponsiveDrawer};
+  
 
 
 
@@ -258,5 +265,9 @@ const mapStateToProps = (state) => ({
   categories: state.Categories.values
 })
 
+export default {
+  Navbar: connect(mapStateToProps,null)(Navbar),
+  ResponsiveDrawer: connect(mapStateToProps,null)(ResponsiveDrawer)
+}
 
-export default connect(mapStateToProps,null)(Navbar);
+
